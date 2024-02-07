@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="col-span-7 place-self-center text-center sm:text-left">
         <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-secondary-700">
-                Hello, I'm {""} 
+                Hello, I&apos;m {""} 
                 </span>
                 <br></br>
 
@@ -43,7 +43,7 @@ const HeroSection = () => {
         As a Systems Analysis and Development student, my current focus lies in mastering front-end development. 
        <br></br>
        <br></br>
-       When not coding, you'll find me brainstorming solutions to coding challenges or planning my next project. 
+       When not coding, you&apos;ll find me brainstorming solutions to coding challenges or planning my next project. 
         </p>
         <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-primary-900 to-secondary-700 hover:bg-slate-200 text-white">
