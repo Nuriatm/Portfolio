@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
-
+import Link from 'next/link';
 
 
 const HeroSection = () => {
@@ -46,12 +46,19 @@ const HeroSection = () => {
        When not coding, you&apos;ll find me brainstorming solutions to coding challenges or planning my next project. 
         </p>
         <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-primary-900 to-secondary-700 hover:bg-slate-200 text-white">
-                Hire Me
-                </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-900 via-primary-900 to-secondary-700  hover:bg-slate-800 text-white mt-3">
-                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Contact Me</span>
-                </button>
+        <button 
+        className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-700 via-primary-900 to-secondary-700 hover:bg-slate-200 text-white"
+        onClick={() => window.open("https://www.linkedin.com/in/nuria-toledo-martins-94a69b240/", "_blank")}
+        >
+           Hire Me
+        </button>
+
+        <button 
+        className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-cyan-700 via-primary-900 to-secondary-700 hover:bg-slate-800 text-white mt-3"
+        onClick={() => window.open("https://wa.me/5516996109672", "_blank")}
+        >
+          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Contact Me</span>
+          </button>
         </div>
         </motion.div>
         <motion.div
