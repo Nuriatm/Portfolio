@@ -56,7 +56,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-12 items-center py-8 px-10 xl:gap-16 ">
       <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative">
         <Image  src="/images/about-image.png" width={300} height={300}  
         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
